@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>maiNaGioia</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stile.css" />
+  </head>
+  <body id="riquadroMenu">
+    <div id="immagine">
+      <ul id="menu">
+          <li ><a onclick="chiSono()" href="#">chi sono io?</a></li>
+          <li><a onclick="gatti()"href="#">I miei 5 gatti</a></li>
+          <li><a onclick="ragazzo()"href="#">Il mio bellissimo ragazzo</a></li>
+          <li><a onclick="stalker()"href="#">contatti (solo per stalker)</a></li>
+        </ul>
+        <div>
+          <ul id="nomi">
+            <li id="chiSonoIo" hidden>
+              <a>
+                Sono una bellissima ragazza (molto umile) che ama il kpop,<br>
+                 ma anche il mio ragazzo, non dimentichiamolo che altrimenti rompe le p...e<br>
+                  e studia come una forsennata per forse un giorno ammaestrare piccoli umani
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul id="nomi">
+            <li id="gatti" hidden>
+              <a>
+                Ernesto detto il demone<br>
+                 Flora pandora perchè è una cicciona ma per non fare body shaming la colpa ricade sul suo pelo lungo<br>
+                  Lilith non ha bisogno di presentazioni guardatevi Diablo4<br>
+                   Romeo il glorioso ciccione romantico<br>
+                    Merlino chiamato anche Pipino (nonsense) il nuovo arrivato che ha già fatto danni
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul id="nomi">
+            <li id="ragazzo" hidden>
+              <a>
+                C'è poco da dire l'unico che mi sopporta e mi ama.<br>P.S.<br>
+                 In realtà è stato lui stesso a scrivere questa cosa...
+                 <img  id="ragaz"src="ragazzo.jpg" >
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul id="nomi">
+            <li id="stalker" hidden>
+              <a>
+                Abito nella tua stessa abitazione<br>
+                so dove abiti si<br>
+                cosa mangi a colazione<br>
+                il mio contatto chiedimelo di persona fai prima<br>
+                fanculo stalker
+                <img id="fangulo"  src="fan.jpg" >
+              </a>
+            </li>
+          </ul>
+        </div>
+      <img id="sfondo" src="fiori.jpg" />
+      <div class="sign-in-form">
+        <header id="mirabolante">Registrati alla mirabolante pagina di Agnese</header>
+        <img id="propioLei" src="Agnese.jpg">
+        <form action="#" id="inserimentoDati">
+          <input type="mail" placeholder="la tua email">
+          <input type="password" placeholder="password">
+          <br></br>
+          <a href="#" id="cazziTuoi">Password dimenticata?<br><br>cazzi tuoi io me le segno</br></br></a>
+          <input type="button" class="button" value="Accedi">
+
+        </form>
+      <div class="Resgistrazione">
+        <span id="Registrati">Non hai un account?male male
+          <label for="check">Registrati sei ancora in tempo</label>
+        
+        </span>
+      </div>
+      </div>
+      
+    </div>
+  </body>
+
+  <script>
+
+ function chiSono() {
+         var trasparenza = document.getElementById("chiSonoIo");
+         if (trasparenza.hidden) {
+           trasparenza.hidden = false;
+         } else {
+           trasparenza.hidden = true;
+         }
+        }
+       function gatti() {
+         var trasparenza = document.getElementById("gatti");
+         if (trasparenza.hidden) {
+           trasparenza.hidden = false;
+         } else {
+           trasparenza.hidden = true;
+         }
+        }
+       function ragazzo() {
+         var trasparenza = document.getElementById("ragazzo");
+         if (trasparenza.hidden) {
+           trasparenza.hidden = false;
+         } else {
+           trasparenza.hidden = true;
+         }
+        }
+       function stalker() {
+         var trasparenza = document.getElementById("stalker");
+         if (trasparenza.hidden) {
+           trasparenza.hidden = false;
+         } else {
+           trasparenza.hidden = true;
+         }
+       }
+
+
+
+
+
+  </script>
+</html>
